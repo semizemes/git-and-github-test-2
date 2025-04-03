@@ -1,5 +1,8 @@
 import express from "express";
 import superheroes from "superheroes";
+import myPackage from'git-and-github-test-2';
+console.log(myPackage);
+
 
 const app = express();
 const port = 3000;
